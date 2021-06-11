@@ -1,0 +1,15 @@
+#! /bin/bash
+
+echo -n "Enter your name: "
+read name
+echo "Hello $name, welcome to my program."
+
+if read -t 4 -p "Enter your password: " pass
+then
+	./hw.out
+
+else echo " Sorry, too slow! "
+	cp hw.cpp HELLO
+	echo " >> HELLO"
+fi
+
