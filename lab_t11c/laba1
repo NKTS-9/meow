@@ -1,0 +1,42 @@
+
+echo "=====userid====="
+whoami
+echo " "
+
+echo "=====put====="
+echo $HOME
+echo " "
+
+echo "=====active users in file Users====="
+who > users
+echo " "
+
+echo "=====home catalog====="
+ls ~
+echo " "
+
+echo "=====stroka3====="
+cat text | head -n 3 | tail -n 1 > text3
+echo " "
+
+echo "=====hello_world====="
+cat hello_world.cpp
+echo " "
+
+echo "=====calling the app====="
+./hello_world.out
+echo " "
+
+echo "=====Hello====="
+cat hello_world.cpp > hello
+echo " "
+
+echo "=====ikts91====="
+ls ../..
+echo " "
+
+echo "=====birthday====="
+echo " 07 09 2001"  > birth
+
+
+
