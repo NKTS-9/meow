@@ -1,0 +1,34 @@
+#! /bin/bash
+a=5
+b=6
+if [ $a -ne $b ]
+then
+   echo "true, $a > $b" 
+else
+   echo false
+fi
+if [ $a -eq $b ]
+then 
+   echo "true $a - $b"
+else
+   echo false
+fi
+if [ $a -le $b ]
+then 
+   echo "true $a < $b"
+else
+   echo false
+fi
+
+cp test test2
+
+if [ -s ./test2.txt ]
+then
+   echo "exe"
+fi
+IFS=$"\n"
+   for i in $( cat ./test2 )
+   do
+      echo $i
+done
+
