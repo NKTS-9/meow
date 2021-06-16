@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1623501815 source:c:\users\artem\desktop\Учёба\Технологии программирования\kino\kino\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<conio.h>
+	<cstdlib>
+	<math.h>
+
+1623696053 source:c:\users\mila\desktop\Новая папка (2)\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<conio.h>
+	<cstdlib>
+	<math.h>
+

@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1623780934 source:c:\users\mila\desktop\34\src\product.cpp
+	"Product.h"
+	<iostream>
+
+1623780600 c:\users\mila\desktop\34\include\product.h
+
+1623780934 source:c:\users\mila\desktop\34\src\clothes.cpp
+	"Clothes.h"
+	<iostream>
+
+1623780615 c:\users\mila\desktop\34\include\clothes.h
+	<Product.h>
+
+1623780934 source:c:\users\mila\desktop\34\src\food.cpp
+	"Food.h"
+	<iostream>
+
+1623780615 c:\users\mila\desktop\34\include\food.h
+	<Product.h>
+
+1623780799 source:c:\users\mila\desktop\34\main.cpp
+	<iostream>
+	"Product.h"
+	"Clothes.h"
+	"Food.h"
+
